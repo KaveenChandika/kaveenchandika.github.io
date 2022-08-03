@@ -16,7 +16,7 @@ function Intro() {
                     <div className="i-title-item">Blogger</div>
                 </div>
             </div>
-            <div className="i-desc mt-3">
+            <div className="i-desc">
               I have confidence to work with my knowledge,skills confident,good
               ideas, attitudes and from the experience I got during the pass 4
               years in Sri Lanka Institue Of Information Technology.
