@@ -17,9 +17,7 @@ function Intro() {
                 </div>
             </div>
             <div className="i-desc">
-              I have confidence to work with my knowledge,skills confident,good
-              ideas, attitudes and from the experience I got during the pass 4
-              years in Sri Lanka Institue Of Information Technology.
+              I'm Software Engineer Currently working at <a href='https://digitalxlabs.com/'>Digitalxlab (pvt) Ltd.</a> 
             </div>
         </div>
        </div>

@@ -15,7 +15,7 @@
 
 .i-left-wrapper{
     padding: 50px;
-    height: 50%;
+    /* height: 50%; */
     display: flex;
     flex-direction: column;
     justify-content: space-between;
@@ -88,4 +88,17 @@
     height: 30px;
     position: absolute;
     bottom: 20px;
+}
+
+@media screen and (max-width:480px) {
+    .i{
+        flex-direction:  column;
+        height: 50vh;
+    }
+
+    .i-bg{
+        clip-path: none;
+        background-color: unset;
+        background-image: none;
+    }
 }

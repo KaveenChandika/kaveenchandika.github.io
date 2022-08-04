@@ -86,9 +86,11 @@
       .a-left {
         width: 100%;
       }
-  
-      .a-card {
-        height: 30vh;
+
+      .a-card , img{
+        width: auto;
+        height: 100%;
+        margin: 5px;
       }
   
       .a-card.bg, .a-award {
@@ -96,6 +98,14 @@
       }
   
       .a-right{
-        padding: 20px;
+        margin: 10px;
+      }
+
+      .a-title{
+        text-align: center;
+      }
+      .a-desc,.a-sub{
+        width: unset;
+        text-align: center;
       }
   }
