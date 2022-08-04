@@ -17,7 +17,7 @@ function Intro() {
                 </div>
             </div>
             <div className="i-desc">
-              I'm Software Engineer Currently working at <a href='https://digitalxlabs.com/'>Digitalxlab (pvt) Ltd.</a> 
+              I'm Software Engineer currently working at <a href='https://digitalxlabs.com/'>Digitalxlab (pvt) Ltd.</a> 
             </div>
         </div>
        </div>
