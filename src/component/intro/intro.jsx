@@ -38,7 +38,7 @@ function Intro() {
             <hr></hr>
             <div className='social-icon'>
                 <a href='https://www.linkedin.com/in/kaveen-gunawardhane-8a0747166/'><i  className='fa fa-linkedin cursor' ></i></a>
-                <i href='https://github.com/KaveenChandika' className='fa fa-github'></i>
+                <a href='https://github.com/KaveenChandika' ><i className='fa fa-github'></i></a>
                 <i className='fa fa-facebook'></i>
                 <i className='fa fa-instagram'></i>
             </div>
