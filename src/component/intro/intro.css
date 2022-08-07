@@ -24,7 +24,7 @@
     margin-left: auto;
     margin-right: auto;
     text-align: center;
-    padding: 120px;
+    padding: 80px;
     display: inline-block;
     vertical-align: middle;
     width: auto;
@@ -66,6 +66,7 @@
     color: #A8A8A8;
     width: 70%;
     text-shadow: 0px 1px 2px rgb(0 0 0 / 50%);
+    position: relative;
 }
 
 .social-icon{
