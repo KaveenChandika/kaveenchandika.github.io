@@ -4,7 +4,7 @@ import SliderSection from '../slider/slider';
 
 function  Skills() {
   return (
-    <div className='skills'>
+    <div className='skills' id="skills">
         <div className='text-center m-4'>
             <h3>Skills & Technologies</h3>
         </div>

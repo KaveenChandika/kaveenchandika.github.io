@@ -1,0 +1,6 @@
+
+.navbar.fixed-top.scrolled {
+    background: rgba(100, 0, 100, 0.5);
+    transition: background-color 1000ms linear;
+    backdrop-filter: saturate(180%) blur(10px);
+  }

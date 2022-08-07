@@ -1,111 +1,65 @@
-.a {
-    height: 110vh;
-    display: flex;
-    align-items: center;
-  }
-  
-  .a-left {
-    flex: 1;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    position: relative;
-    height: 100%;
-  }
-  
-  .a-right {
-    flex: 1;
-    padding-right: 10px;
-  }
-  
-  .a-card.bg {
-    position: absolute;
-    top: 50px;
-    left: 50px;
-    background-color: #333;
-  }
-  
-  .a-card {
-    width: 60%;
+.about {
     height: 80vh;
-    border-radius: 30px;
-    position: relative;
-    overflow: hidden;
-  }
-  
-  .a-img {
-    width: 100%;
-    height: 100%;
-    object-fit: cover;
-  }
-  
-  .a-award-img {
-    width: 120px;
-    height: 120px;
-    border-radius: 20px;
-  }
-  
-  .a-title {
-    font-weight: 400;
+    display: flex;
+    justify-content:center;
+    align-items: flex-start;
+    background-color: purple;
+    padding-top: 5%;
   }
   
   .a-sub {
-    width: 80%;
-    margin: 20px 0px;
+    width: 100%;
+    font-weight: 100px;
   }
-  
-  .a-desc{
-    width: 80%;
-    font-weight: 300;
+
+  .about-left.avatar{
+    box-shadow:blue 0 0 0.2px 0px;
   }
-  
-  .a-award{
-      margin-top: 50px;
-      display: flex;
-      align-items: center;
-      justify-content: space-between;
+
+  .about-left > .avatar:hover{
+    cursor: pointer;
   }
-  
-  .a-award-texts{
-      width: 70%;
-  }
-  
-  .a-award-title{
-      font-weight: bold;
-      color: #555;
-      margin-bottom: 10px;
+
+  .about-right{
+    color: white;
+    width: 40%;
   }
   
   @media screen and (max-width:480px) {
-      .a{
+      .about {
+        height: 70vh;
+        display: block;
         flex-direction: column;
-        text-align: center;
-        margin-top: 50px;
+        justify-content:center;
+        align-items:center;
+        background-color: purple;
       }
-  
-      .a-left {
+      .about-left{
+        display: none;
+        text-align: center;
+      }
+      .about-right{
+        color: white;
         width: 100%;
+        padding-top: 40px !important;
+        padding: 10px;
       }
 
-      .a-card , img{
-        width: auto;
-        height: 100%;
-        margin: 5px;
+      .resume-btn{
+        text-align: center;
       }
-  
-      .a-card.bg, .a-award {
-        display: none;
+
+      .a-desc{
+        width: 100%;
+        font-size: 15px;
       }
-  
-      .a-right{
-        margin: 10px;
+
+      .a-sub {
+        width: 100%;
+        font-size: 15px;
       }
 
       .a-title{
-        text-align: center;
-      }
-      .a-desc,.a-sub{
-        width: unset;
         text-align: center;
       }
   }
