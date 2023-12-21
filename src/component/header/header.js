@@ -22,7 +22,7 @@ function Header() {
     window.addEventListener('scroll', changeNavbarColor);
 
     return (
-        <nav className='fixed top-0 left-0 right-0 z-10 bg-[#121212] bg-opacity-90' >
+        <nav className='fixed left-0 right-0 z-10 bg-[#121212] bg-opacity-90' >
             <div className="flex flex-row items-center justify-between mx-auto p-8">
                 {/* <nav className={`navbar navbar-expand-lg navbar-light fixed-top ${colorChange ? 'scrolled':''}`}> */}
                 <div>
