@@ -1,53 +1,48 @@
 import React, { useEffect, useState } from 'react';
 import "./header.css";
+import { Bars3Icon, XMarkIcon } from "@heroicons/react/24/outline"
+import NavLinks from './NavLinks';
 
 function Header() {
     const [colorChange, setColorchange] = useState(false);
-    const [activeTab,setActiveTab] = useState('1');
+    const [navbarOpen, setNavBarOpen] = useState(false)
 
     useEffect(() => {
         window.scrollTo(0, 0)
     }, [])
 
-    const changeNavbarColor = () =>{
-        if(window.scrollY >=80){
+    const changeNavbarColor = () => {
+        if (window.scrollY >= 80) {
             setColorchange(true);
         }
-        else{
+        else {
             setColorchange(false);
         }
     };
     window.addEventListener('scroll', changeNavbarColor);
 
-    const toggle = (tabs) => {
-        if(activeTab !== tabs) setActiveTab(tabs)
-    }
     return (
-        <div className='header'>
-            <nav className={`navbar navbar-expand-lg navbar-light fixed-top ${colorChange ? 'scrolled':''}`}>
-                <div className="container-fluid topnav-centered">
-                    <div className="collapse navbar-collapse" id="navbarSupportedContent">
-                        <ul className="navbar-nav mx-auto mb-2 mb-lg-0 ">
-                            <li className="nav-item ">
-                                <a className={`nav-link active text-uppercase ${activeTab ===1 ? 'text-success' : 'text-white'} `} aria-current="page" href="#" onClick={() => {toggle('1')}}>Home</a>
-                            </li>
-                            <li className="nav-item">
-                                <a className={`nav-link text-uppercase ${activeTab === 2 ? 'text-success' : 'text-white'} `} href="#about" onClick={() => {toggle('2')}} >About</a>
-                            </li>
-                            <li className="nav-item">
-                                <a className={`nav-link text-uppercase ${activeTab === 3 ? 'text-success' : 'text-white'} `} href="#" onClick={() => {toggle('3')}} >Experience</a>
-                            </li>
-                            <li className="nav-item">
-                                <a className={`nav-link text-uppercase ${activeTab === 4 ? 'text-success' : 'text-white'} `} href="#skills" onClick={() => {toggle('4')}} >Skills & Technologies</a>
-                            </li>
-                            <li className="nav-item">
-                                <a className={`nav-link text-uppercase ${activeTab === 5 ? 'text-success' : 'text-white'} `} href="#" onClick={() => {toggle('5')}} >Contact Us</a>
-                            </li>
-                        </ul>
-                    </div>
+        <nav className='fixed top-0 left-0 right-0 z-10 bg-[#121212] bg-opacity-90' >
+            <div className="flex flex-row items-center justify-between mx-auto p-8">
+                {/* <nav className={`navbar navbar-expand-lg navbar-light fixed-top ${colorChange ? 'scrolled':''}`}> */}
+                <div>
+                    <a className='text-white text-2xl md:text-4xl font-semibold' aria-current="page" href="/">LOGO</a>
                 </div>
-            </nav>
-        </div>
+                <div className='mobile-menu block md:hidden'>
+                    {!navbarOpen ?
+                        <button onClick={() => setNavBarOpen(true)} className='flex items-center px-3 py-2 border-rouded text-slate-200 border-slate-200 hover:text-white hover:border-white' >
+                            <Bars3Icon className='h-5 w-5' />
+                        </button> :
+                        <button onClick={() => setNavBarOpen(false)} className='flex items-center px-3 py-2 border-rouded text-slate-200 border-slate-200 hover:text-white hover:border-white' >
+                            <XMarkIcon className='h-5 w-5' />
+                        </button>}
+                </div>
+                <div className="menu hidden md:block md:w-auto">
+                    <NavLinks />
+                </div>
+            </div>
+            {navbarOpen ? <NavLinks /> : null}
+        </nav>
     )
 }
 

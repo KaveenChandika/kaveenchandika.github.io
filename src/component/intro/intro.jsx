@@ -7,8 +7,8 @@ import { TypeAnimation } from 'react-type-animation';
 function Intro() {
   return (
     <div className='bg-[#0e0f31] '>
+        <Header />
       <div className='flex flex-col lg:flex-row items-center justify-between pt-10 px-2 sm:px-20'>
-        {/* <Header /> */}
         <div class="area" >
           <ul class="circles">
             <li></li>
