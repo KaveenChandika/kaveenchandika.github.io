@@ -1,8 +1,12 @@
 {
   "files": {
-    "main.css": "/static/css/main.0c4be029.css",
-    "main.js": "/static/js/main.38da2722.js",
+    "main.css": "/static/css/main.29802798.css",
+    "main.js": "/static/js/main.275bd987.js",
+    "static/media/vecteezy_office-employee-png-with-ai-generated_27309403.png": "/static/media/vecteezy_office-employee-png-with-ai-generated_27309403.7bf3162c966d9178ba00.png",
+    "static/media/Developer2.gif": "/static/media/Developer2.ce2545ff0f4128e66917.gif",
+    "static/media/Developer3.gif": "/static/media/Developer3.07d8ecf68bdc21a74e2b.gif",
     "static/media/kc.jpeg": "/static/media/kc.7e113a9f5e64e6589502.jpeg",
+    "static/media/Developer.gif": "/static/media/Developer.a37412fa063c4ec76e7c.gif",
     "static/media/reactjs.png": "/static/media/reactjs.d2f858cd34386e69caee.png",
     "static/media/redis.png": "/static/media/redis.6141139d291bed8ce6c5.png",
     "static/media/mongodb.png": "/static/media/mongodb.4f7af09e6354d51beec8.png",
@@ -18,11 +22,11 @@
     "static/media/slick.ttf": "/static/media/slick.c94f7671dcc99dce43e2.ttf",
     "static/media/slick.woff": "/static/media/slick.295183786cd8a1389865.woff",
     "index.html": "/index.html",
-    "main.0c4be029.css.map": "/static/css/main.0c4be029.css.map",
-    "main.38da2722.js.map": "/static/js/main.38da2722.js.map"
+    "main.29802798.css.map": "/static/css/main.29802798.css.map",
+    "main.275bd987.js.map": "/static/js/main.275bd987.js.map"
   },
   "entrypoints": [
-    "static/css/main.0c4be029.css",
-    "static/js/main.38da2722.js"
+    "static/css/main.29802798.css",
+    "static/js/main.275bd987.js"
   ]
 }
