@@ -1,10 +1,10 @@
 .about {
-    height: 80vh;
-    display: flex;
-    justify-content:center;
-    align-items: flex-start;
-    background-color: purple;
-    padding-top: 5%;
+    /* height: 80vh; */
+    /* display: flex;
+    justify-content:center; */
+    /* align-items: flex-start; */
+    /* background-color: purple; */
+    /* padding-top: 5%; */
   }
   
   .a-sub {
@@ -21,11 +21,10 @@
   }
 
   .about-right{
-    color: white;
     width: 40%;
   }
   
-  @media screen and (max-width:480px) {
+  /* @media screen and (max-width:480px) {
       .about {
         height: 70vh;
         display: block;
@@ -45,10 +44,6 @@
         padding: 10px;
       }
 
-      .resume-btn{
-        text-align: center;
-      }
-
       .a-desc{
         width: 100%;
         font-size: 15px;
@@ -62,4 +57,4 @@
       .a-title{
         text-align: center;
       }
-  }
+  } */

@@ -52,36 +52,36 @@ function SliderSection() {
     ],
   };
     return (
-        <Slider {...settings} className="ms-5 ps-5">
+        <Slider {...settings} className="ms-5 ps-5  items-center">
                 <div>
-                    <img src={reactjs} alt="" />
+                    <img src={reactjs} alt="" className="p-[10px] sm:p-0 md:p-0 lg:p-[10px] xl:p-[10px] rounded-2xl bg-white w-[70px] sm:w-[70px] md:w-[70px] lg:w-[70px] xl:w-[70px] content-center" />
                 </div>
                 <div>
-                    <img src={redux} alt="" />
+                    <img src={redux} alt=""   className="p-[10px] sm:p-0 md:p-0 lg:p-[10px] xl:p-[10px] rounded-2xl bg-white w-[70px] sm:w-[70px] md:w-[70px] lg:w-[70px] xl:w-[70px] content-center"/>
                 </div>
                 <div>
-                    <img src={nodejs} alt="" />
+                    <img src={nodejs} alt="" className="p-[10px] sm:p-0 md:p-0 lg:p-[10px] xl:p-[10px] rounded-2xl bg-white w-[70px] sm:w-[70px] md:w-[70px] lg:w-[70px] xl:w-[70px] content-center" />
                 </div>
                 <div>
-                    <img src={mongodb} alt="" />
+                    <img src={mongodb} alt="" className="p-[10px] sm:p-0 md:p-0 lg:p-[10px] xl:p-[10px] rounded-2xl bg-white w-[70px] sm:w-[70px] md:w-[70px] lg:w-[70px] xl:w-[70px] content-center" />
                 </div>
                 <div>
-                    <img src={javascript} alt="" />
+                    <img src={javascript} alt=""  className="p-[10px] sm:p-0 md:p-0 lg:p-[10px] xl:p-[10px] rounded-2xl bg-white w-[70px] sm:w-[70px] md:w-[70px] lg:w-[70px] xl:w-[70px] content-center" />
                 </div>
                 <div>
-                    <img src={php} alt="" />
+                    <img src={php} alt="" className="p-[10px] sm:p-0 md:p-0 lg:p-[10px] xl:p-[10px] rounded-2xl bg-white w-[70px] sm:w-[70px] md:w-[70px] lg:w-[70px] xl:w-[70px] content-center" />
                 </div>
                 <div>
-                    <img src={mysql} alt="" />
+                    <img src={mysql} alt="" className="p-[10px] sm:p-0 md:p-0 lg:p-[10px] xl:p-[10px] rounded-2xl bg-white w-[70px] sm:w-[70px] md:w-[70px] lg:w-[70px] xl:w-[70px] content-center" />
                 </div>
                 <div>
-                    <img src={laravel} alt="" />
+                    <img src={laravel} alt="" className="p-[10px] sm:p-0 md:p-0 lg:p-[10px] xl:p-[10px] rounded-2xl bg-white w-[70px] sm:w-[70px] md:w-[70px] lg:w-[70px] xl:w-[70px] content-center" />
                 </div>
                 <div>
-                    <img src={codeigniter} alt="" />
+                    <img src={codeigniter} alt="" className="p-[10px] sm:p-0 md:p-0 lg:p-[10px] xl:p-[10px] rounded-2xl bg-white w-[70px] sm:w-[70px] md:w-[70px] lg:w-[70px] xl:w-[70px] content-center" />
                 </div>
                 <div>
-                    <img src={redis} alt="" />
+                    <img src={redis} alt="" className="p-[10px] sm:p-0 md:p-0 lg:p-[10px] xl:p-[10px] rounded-2xl bg-white w-[70px] sm:w-[70px] md:w-[70px] lg:w-[70px] xl:w-[70px] content-center" />
                 </div>
         </Slider>
     )

@@ -10,7 +10,7 @@ function Header() {
     }, [])
 
     const changeNavbarColor = () =>{
-        if(window.scrollY >= 80){
+        if(window.scrollY >=80){
             setColorchange(true);
         }
         else{
@@ -29,19 +29,19 @@ function Header() {
                     <div className="collapse navbar-collapse" id="navbarSupportedContent">
                         <ul className="navbar-nav mx-auto mb-2 mb-lg-0 ">
                             <li className="nav-item ">
-                                <a className={`nav-link active text-uppercase ${activeTab == 1 ? 'text-success' : 'text-white'} `} aria-current="page" href="#" onClick={() => {toggle('1')}}>Home</a>
+                                <a className={`nav-link active text-uppercase ${activeTab ===1 ? 'text-success' : 'text-white'} `} aria-current="page" href="#" onClick={() => {toggle('1')}}>Home</a>
                             </li>
                             <li className="nav-item">
-                                <a className={`nav-link text-uppercase ${activeTab == 2 ? 'text-success' : 'text-white'} `} href="#about" onClick={() => {toggle('2')}} >About</a>
+                                <a className={`nav-link text-uppercase ${activeTab === 2 ? 'text-success' : 'text-white'} `} href="#about" onClick={() => {toggle('2')}} >About</a>
                             </li>
                             <li className="nav-item">
-                                <a className={`nav-link text-uppercase ${activeTab == 3 ? 'text-success' : 'text-white'} `} href="#" onClick={() => {toggle('3')}} >Experience</a>
+                                <a className={`nav-link text-uppercase ${activeTab === 3 ? 'text-success' : 'text-white'} `} href="#" onClick={() => {toggle('3')}} >Experience</a>
                             </li>
                             <li className="nav-item">
-                                <a className={`nav-link text-uppercase ${activeTab == 4 ? 'text-success' : 'text-white'} `} href="#skills" onClick={() => {toggle('4')}} >Skills & Technologies</a>
+                                <a className={`nav-link text-uppercase ${activeTab === 4 ? 'text-success' : 'text-white'} `} href="#skills" onClick={() => {toggle('4')}} >Skills & Technologies</a>
                             </li>
                             <li className="nav-item">
-                                <a className={`nav-link text-uppercase ${activeTab == 5 ? 'text-success' : 'text-white'} `} href="#" onClick={() => {toggle('5')}} >Contact Us</a>
+                                <a className={`nav-link text-uppercase ${activeTab === 5 ? 'text-success' : 'text-white'} `} href="#" onClick={() => {toggle('5')}} >Contact Us</a>
                             </li>
                         </ul>
                     </div>
